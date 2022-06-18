@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li class="logo"><a href="Menu.html">Artian Bakery Logo</a></li>
+            <li><a href="Locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+    <h1>Home</h1>
+</header>
+<section>
+    <div>Home</div>
+    <div>Filw</div>
+    <div>tools</div>
+</section>
+<section>lower-section</section>
+
+<footer>footer</footer>
+<hr>
+<table border="1" cellspacing="5">
+<tr>
+    <th>
+        Serial No.
+    </th>
+    <th>
+        Name
+    </th>
+    <th>
+        Age
+    </th>
+</tr>
+<tr>
+    <td>
+        1
+    </td>
+    <td>
+        Abdullahi Shehu
+    </td>
+    <td>
+        20
+    </td>
+    <tr>
+        <td>
+            2
+        </td>
+        <td>
+            Abdullahi Shehu
+        </td>
+        <td>
+            20
+        </td>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                Abdullahi Shehu
+            </td>
+            <td>
+                20
+            </td>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    Abdullahi Shehu
+                </td>
+                <td>
+                    20
+                </td>
+                <tr>
+                    <td>
+                        5
+                    </td>
+                    <td>
+                        Abdullahi Shehu
+                    </td>
+                    <td>
+                        20
+                    </td>
+</table>
+<hr>
+<h3>Skills</h3>
+<table border="1"cellspacing="5">
+    <tr>
+        <td>
+            iOS Development
+        </td>
+        <td>
+            ⭐⭐⭐⭐⭐⭐⭐⭐ 
+        </td>
+        <td>
+            Photography
+        </td>
+        <td>
+            ⭐⭐
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Web Development
+        </td>
+        <td>
+            ⭐⭐⭐
+        </td>
+        <td>
+            Painting
+        </td>
+        <td>
+            ⭐⭐⭐⭐⭐⭐ 
+        </td>
+    </tr>
+</table>
+<hr>
+<form class="" action="index.html" method="post"></form>
+<legend>My Name</legend>
+<input type="text" name="" id="">
+<input type="color" name="" id="">
+<input type="checkbox" name="" id="">
+<input type="Submit" name="" id="">
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
